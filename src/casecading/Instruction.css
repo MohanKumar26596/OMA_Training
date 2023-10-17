@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+/* body {
+  background-color: #fff;
+} */
+.Custom-Instruct {
+  width: 100%;
+  height: 100vh;
+}
+.instruct-Box {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff;
+}
+.instruct-Content {
+  width: 663px;
+  height: 380px;
+}
+.app-Logo {
+  width: 179px;
+  height: 46px;
+  /* padding-bottom: 34px; */
+}
+.instruct-Head {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 34px 0px 30px 0px;
+}
+.instruct-Para {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+.continue-Btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background: #00737f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  border-style: none;
+}
+/* Responsive */
+@media screen and (max-width: 960px) {
+  .Custom-Instruct {
+    width: 100%;
+    height: 100vh;
+  }
+  .instruct-Box {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+  }
+  .instruct-Content {
+    width: 90%;
+  }
+  .instruct-Para {
+    line-height: 30px;
+  }
+  .continue-Box {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 725px) {
+  .logo-Pic {
+    width: 200px;
+    height: 43px;
+    background: #fbfbfb;
+    padding: 40px 0px 0px 35px;
+  }
+  .header-Account {
+    font-size: 14px;
+  }
+  .header-Btn {
+    width: 112px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .instruct-Box {
+    width: 100%;
+    height: 83vh;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .instruct-Content {
+    width: 600px;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .app-Logo {
+    width: 150px;
+    height: 36px;
+    padding-bottom: 28px;
+  }
+  .instruct-Content {
+    width: 100%;
+  }
+  .instruct-Head {
+    font-size: 15px;
+  }
+  .instruct-Para {
+    font-size: 13px;
+  }
+  .continue-Box {
+    padding-top: 20px;
+  }
+  .continue-Btn {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .Custom-Instruct {
+    width: 100%;
+    height: 90vh;
+  }
+  .header {
+    width: 100%;
+  }
+  .logo-Pic {
+    width: 170px;
+    height: 38px;
+    background: #fbfbfb;
+    padding: 40px 0px 0px 35px;
+  }
+  .header-Account {
+    font-size: 12px;
+  }
+  .header-Btn {
+    width: 100px;
+    height: 35px;
+    font-size: 11px;
+  }
+  .instruct-Box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .instruct-Content {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .app-Logo {
+    width: 150px;
+    height: 38px;
+    padding-bottom: 28px;
+  }
+  .instruct-Head {
+    font-size: 12px;
+  }
+  .instruct-Para {
+    font-size: 11px;
+  }
+  .continue-Box {
+    padding-top: 25px;
+  }
+  .continue-Btn {
+    width: 140px;
+    height: 34px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .Custom-Instruct {
+    width: 100%;
+    /* height: 90vh; */
+  }
+  .header {
+    width: 100%;
+  }
+  .logo-Pic {
+    width: 125px;
+    height: 30px;
+    background: #fbfbfb;
+    padding: 40px 0px 0px 30px;
+  }
+  .header-Account {
+    font-size: 11px;
+  }
+  .header-Btn {
+    width: 90px;
+    height: 32px;
+    font-size: 10px;
+  }
+  .instruct-Box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .instruct-Content {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .app-Logo {
+    width: 125px;
+    height: 32px;
+    padding-bottom: 22px;
+  }
+  .instruct-Head {
+    font-size: 10px;
+    padding-bottom: 15px;
+  }
+  .instruct-Para {
+    font-size: 9px;
+    padding-bottom: 15px;
+    line-height: 29px;
+  }
+  .continue-Box {
+    padding-top: 0px;
+  }
+  .continue-Btn {
+    width: 115px;
+    height: 28px;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,685 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "question": "What type of dreams do you often experience ?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "1 fantastical adventures",
+          "mark": 2
+        },
+        {
+          "option": "2 practical scenarios",
+          "mark": 5
+        },
+        {
+          "option": "3 problem-solving situations",
+          "mark": 4
+        },
+        {
+          "option": "4 introspective journeys",
+          "mark": 1
+        },
+        {
+          "option": "5 Realistic scenarios",
+          "mark": 3
+        }
+      ]
+    },
+
+    {
+      "id": "2",
+      "question": "How to achive our goal in short time period ?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "concentration",
+          "mark": 4
+        },
+        {
+          "option": "daily routine",
+          "mark": 2
+        },
+        {
+          "option": "ignore unwanted things",
+          "mark": 3
+        },
+        {
+          "option": "spend time",
+          "mark": 1
+        },
+        {
+          "option": "all the above",
+          "mark": 5
+        }
+      ]
+    },
+
+    {
+      "id": "3",
+      "question": "When you think about your future, what comes to mind?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "Achieve personal goals",
+          "mark": 4
+        },
+        {
+          "option": "Achieve aspirations",
+          "mark": 1
+        },
+        {
+          "option": "Build secure life",
+          "mark": 2
+        },
+        {
+          "option": "Solving global challenges",
+          "mark": 3
+        },
+        {
+          "option": "Explore inner self",
+          "mark": 5
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "How do you approach challenges and obstacles in life?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "creativity",
+          "mark": 4
+        },
+        {
+          "option": "innovative solutions",
+          "mark": 3
+        },
+        {
+          "option": "logical approach",
+          "mark": 5
+        },
+        {
+          "option": "sense of social responsibility",
+          "mark": 2
+        },
+        {
+          "option": "emotional understanding",
+          "mark": 1
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Which of the following activities appeals to you the most?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "creative projects",
+          "mark": 5
+        },
+        {
+          "option": "Financial investment",
+          "mark": 2
+        },
+        {
+          "option": "charitable causes",
+          "mark": 1
+        },
+        {
+          "option": "Volunteering",
+          "mark": 3
+        },
+        {
+          "option": "Self-reflection",
+          "mark": 4
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "When facing uncertainty or change, what is your typical reaction?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "enthusiasm and adaptability",
+          "mark": 4
+        },
+        {
+          "option": "prepare meticulously",
+          "mark": 2
+        },
+        {
+          "option": "support others through",
+          "mark": 3
+        },
+        {
+          "option": "nothing",
+          "mark": 1
+        },
+        {
+          "option": "growth yourslef",
+          "mark": 5
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "How do you approach setting goals?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "Pursue ambitious",
+          "mark": 1
+        },
+        {
+          "option": "innovative objectives",
+          "mark": 3
+        },
+        {
+          "option": "measurable and achievable goals",
+          "mark": 2
+        },
+        {
+          "option": "Focus on goals",
+          "mark": 4
+        },
+        {
+          "option": "Reflect inner desires",
+          "mark": 5
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "What do you consider your greatest source of inspiration?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "Imagination and creativity",
+          "mark": 4
+        },
+        {
+          "option": "practical experience",
+          "mark": 5
+        },
+        {
+          "option": "Knowledge",
+          "mark": 2
+        },
+        {
+          "option": "Compassion and a sense of duty",
+          "mark": 1
+        },
+        {
+          "option": "Emotions and personal experiences",
+          "mark": 2
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "In your free time, what kind of books or media do you prefer?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "Science fiction and fantasy novels",
+          "mark": 4
+        },
+        {
+          "option": "fantasy novels",
+          "mark": 2
+        },
+        {
+          "option": "self-help books",
+          "mark": 5
+        },
+        {
+          "option": "Biographies books",
+          "mark": 3
+        },
+        {
+          "option": "Poetry books",
+          "mark": 1
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "When you close your eyes and imagine your ideal future, what does it look like?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "An adventurous journey filled with new experiences",
+          "mark": 4
+        },
+        {
+          "option": "secure life with financial comfort",
+          "mark": 2
+        },
+        {
+          "option": "A world where societal issues are solved",
+          "mark": 3
+        },
+        {
+          "option": "A deep exploration of inner self",
+          "mark": 5
+        },
+        {
+          "option": "nothing",
+          "mark": 1
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "How do you typically approach a problem or challenge?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "creative thinking",
+          "mark": 4
+        },
+        {
+          "option": "innovative solutions",
+          "mark": 5
+        },
+        {
+          "option": "logical approach",
+          "mark": 3
+        },
+        {
+          "option": "affects others and society",
+          "mark": 2
+        },
+        {
+          "option": "Through self-reflection",
+          "mark": 1
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "What motivates you the most in life?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "personal dreams",
+          "mark": 4
+        },
+
+        {
+          "option": "passions",
+          "mark": 5
+        },
+        {
+          "option": "financial security ",
+          "mark": 3
+        },
+        {
+          "option": "positive impact",
+          "mark": 2
+        },
+        {
+          "option": "Understanding your emotions",
+          "mark": 1
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "When planning your goals, which factor is most important to you?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "Expressing your unique creativity and ideas",
+          "mark": 5
+        },
+        {
+          "option": "Dreams of exploration and adventure",
+          "mark": 1
+        },
+        {
+          "option": "Setting measurable and achievable objectives",
+          "mark": 2
+        },
+        {
+          "option": "Aligning your goals with social and ethical values",
+          "mark": 4
+        },
+        {
+          "option": "Exploring your inner desires and values",
+          "mark": 2
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "What type of dreams or aspirations do you often have?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "exploration and adventure",
+          "mark": 4
+        },
+        {
+          "option": "financial success and stability",
+          "mark": 2
+        },
+        {
+          "option": "Exploring inner desires",
+          "mark": 1
+        },
+        {
+          "option": "make difference in societyy",
+          "mark": 3
+        },
+        {
+          "option": "explore inner thoughts and feelings",
+          "mark": 5
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "How do you approach personal growth and development??",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "creative self-expression",
+          "mark": 4
+        },
+        {
+          "option": "structured learning and skill-building",
+          "mark": 1
+        },
+        {
+          "option": "contributing to t well-being of others",
+          "mark": 2
+        },
+        {
+          "option": "Through  emotional intelligence",
+          "mark": 5
+        },
+        {
+          "option": "Through self-awareness",
+          "mark": 3
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "When envisioning your ideal future, what is most appealing to you?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "Adventure and exploration",
+          "mark": 4
+        },
+        {
+          "option": "Financial stability and security",
+          "mark": 3
+        },
+        {
+          "option": "Making a positive impact on society",
+          "mark": 5
+        },
+        {
+          "option": "Deep emotional self-discovery",
+          "mark": 2
+        },
+        {
+          "option": "Spiritual enlightenment",
+          "mark": 1
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "How do you typically approach solving problems?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "creative thinking",
+          "mark": 4
+        },
+       {
+          "option": "logical and analytical thinking",
+          "mark": 2
+        },
+        {
+          "option": "Considering the greater good and ethics",
+          "mark": 1
+        },
+        {
+          "option": "Tunderstand and managing emotions",
+          "mark": 5
+        },
+        {
+          "option": "guidance from higher powers",
+          "mark": 3
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "What drives you to pursue your goals?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "novelty and excitement",
+          "mark": 4
+        },
+        {
+          "option": "The need for financial success",
+          "mark": 2
+        },
+        {
+          "option": "A sense of duty and responsibility",
+          "mark": 3
+        },
+        {
+          "option": "A quest for self-understanding",
+          "mark": 5
+        },
+        {
+          "option": "A spiritual or philosophical calling",
+          "mark": 1
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "In your free time, what activities do you gravitate towards?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "Creative endeavors and artistic expression",
+          "mark": 1
+        },
+        {
+          "option": "Financial planning and investment",
+          "mark": 2
+        },
+        {
+          "option": "Volunteering for charitable causes",
+          "mark": 3
+        },
+        {
+          "option": "Self-reflection and journaling",
+          "mark": 5
+        },
+        {
+          "option": "Meditation or prayer",
+          "mark": 4
+        }
+      ]
+    },
+
+    {
+      "id": "20",
+      "question": "What type of dreams or aspirations do you often discuss with others?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "pursuing the extraordinaryt",
+          "mark": 2
+        },
+        {
+          "option": "g practical and realistic objectivess",
+          "mark": 3
+        },
+        {
+          "option": "Making a positive impact on society",
+          "mark": 4
+        },
+        {
+          "option": "Understanding and managing inner world",
+          "mark": 5
+        },
+        {
+          "option": "Spiritual and metaphysical experiences",
+          "mark": 1
+        }
+      ]
+    },
+
+    {
+      "id": "21",
+      "question": "How do you approach personal growth and self-improvement?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "artistic and creative exploration",
+          "mark": 4
+        },
+        {
+          "option": "By gaining knowledge and skills",
+          "mark": 2
+        },
+        {
+          "option": "By helping others and contributing to society",
+          "mark": 3
+        },
+        {
+          "option": "Through emotional awareness and introspection",
+          "mark": 5
+        },
+        {
+          "option": "Through spiritual practices and enlightenment",
+          "mark": 1
+        }
+      ]
+    },
+
+    {
+      "id": "22",
+      "question": "When you think about your legacy, what is most important to you?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "creativity and innovation",
+          "mark": 4
+        },
+        {
+          "option": "legacy of financial security",
+          "mark": 2
+        },
+        {
+          "option": "positive change in the world",
+          "mark": 3
+        },
+        {
+          "option": "emotional understanding",
+          "mark": 5
+        },
+        {
+          "option": "philosophical legacy",
+          "mark": 1
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "How do you approach setbacks or failures in life?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "opportunities for new beginnings",
+          "mark": 4
+        },
+        {
+          "option": "5 experiences for improvement",
+          "mark": 2
+        },
+        {
+          "option": "As challenges that can benefit others",
+          "mark": 3
+        },
+        {
+          "option": "As opportunities for emotional growth",
+          "mark": 1
+        },
+        {
+          "option": "Through spiritual or faith-based coping mechanisms",
+          "mark": 2
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "How do you approach setbacks or failures in life?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "opportunities for new beginnings",
+          "mark": 1
+        },
+        {
+          "option": "5 experiences for improvement",
+          "mark": 2
+        },
+        {
+          "option": "As challenges that can benefit others",
+          "mark": 4
+        },
+        {
+          "option": "As opportunities for emotional growth",
+          "mark": 3
+        },
+        {
+          "option": "Through spiritual or faith-based coping mechanisms",
+          "mark": 5
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "How do you approach setbacks or failures in life?",
+      "category": "64f6d13c440cb81c9b48494f",
+      "answers": [
+        {
+          "option": "opportunities for new beginnings",
+          "mark": 5
+        },
+        {
+          "option": "5experiences for improvement",
+          "mark": 4
+        },
+        {
+          "option": "As challenges that can benefit others",
+          "mark": 3
+        },
+        {
+          "option": "As opportunities for emotional growth",
+          "mark": 2
+        },
+        {
+          "option":"Through spiritual or faith-based coping mechanisms",
+          "mark": 1
+        }
+      ]
+    }
+  ]
+}

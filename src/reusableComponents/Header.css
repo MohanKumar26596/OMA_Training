@@ -1,0 +1,410 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 113px;
+  display: flex;
+  background: #fbfbfb;
+  justify-content: space-between;
+}
+.header-Left {
+  width: 50%;
+  height: 113px;
+  display: flex;
+}
+.logo-Pic {
+  width: 231px;
+  height: 53px;
+  background: #fbfbfb;
+  padding: 30px 0px 0px 50px;
+}
+.header-Right {
+  width: 720px;
+  height: 113px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fbfbfb;
+  padding-right: 50px;
+}
+.navbar {
+  display: none;
+}
+.page-Name {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  margin-right: 36px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.page-Name:hover {
+  color: #00737f;
+  text-decoration: underline #00737f;
+}
+.active {
+  color: #00737f;
+  text-decoration: underline #00737f;
+  cursor: pointer;
+}
+.logout-Btn {
+  width: 126px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  background: #00737f;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  border-style: none;
+}
+.menu-Btn {
+  width: 0px;
+  height: 0px;
+  cursor: pointer;
+}
+.close-Btn {
+  width: 0px;
+  height: 0px;
+  cursor: pointer;
+}
+.menuBar {
+  display: none;
+}
+
+/* STATUS CODE SUCCESS AND FAIL POPUP */
+
+.popup {
+  width: 240px;
+  height: 55px;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 14px 10px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0;
+  pointer-events: none;
+}
+.success {
+  color: #00737f;
+  background-color: #c2edf1;
+}
+
+.popup.show {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  pointer-events: auto;
+  animation: fadeInOut 2s ease-in-out;
+}
+
+/* ANIMATOIN FOR POPUP */
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Responsive */
+@media screen and (max-width: 800px) {
+  .header {
+    justify-content: space-between;
+  }
+  .logo-Pic {
+    width: 195px;
+    height: 45px;
+    background: #fbfbfb;
+    padding: 40px 0px 0px 35px;
+  }
+  .header-Account {
+    font-size: 14px;
+  }
+  .logout-Btn {
+    width: 112px;
+    height: 40px;
+    font-size: 15px;
+    border-style: none;
+  }
+  .close-Btn {
+    display: none;
+  }
+  .menuBar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .logo-Pic {
+    width: 183px;
+    height: 41px;
+    background: #fbfbfb;
+    padding: 40px 0px 0px 35px;
+  }
+  .page-Name {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .logout-Btn {
+    width: 112px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .close-Btn {
+    display: none;
+  }
+  .menuBar {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .Custom-Instruct {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .header-Left {
+    width: 50%;
+    justify-content: space-between;
+  }
+  .logo-Pic {
+    width: 170px;
+    height: 38px;
+    background: #fbfbfb;
+    padding: 40px 24px 0px 35px;
+  }
+  .header-Right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu-Btn,
+  .close-Btn {
+    width: 32px;
+    height: 32px;
+    padding-right: 0px;
+  }
+  .page-Name,
+  .logout-Btn {
+    display: none;
+  }
+
+  .menu-Bar {
+    position: absolute;
+    width: 100%;
+    height: 83vh;
+    background-color: #00737f;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 50px;
+    flex-direction: column;
+  }
+  .head-Name {
+    width: 315px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 40px 0px 0px 0px;
+    align-content: flex-start;
+    cursor: pointer;
+  }
+  .head-Name :hover {
+    text-decoration: underline #fff;
+  }
+  .active {
+    color: #fff;
+    text-decoration: underline #fff;
+  }
+  .navbar-Logout {
+    width: 315px;
+    height: 50px;
+    border-radius: 5px;
+    background: #fff;
+    color: #00737f;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 40px;
+    cursor: pointer;
+    border-style: none;
+  }
+  .app-BodyHeader {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .logo-Pic {
+    width: 140px;
+    height: 32px;
+    background: #fbfbfb;
+    padding: 40px 0px 0px 30px;
+  }
+  .header-Right {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu-Btn,
+  .close-Btn {
+    width: 28px;
+    height: 28px;
+    padding-right: 0px;
+  }
+  .head-Name {
+    width: 290px;
+    font-size: 15px;
+  }
+  .navbar-Logout {
+    width: 290px;
+    height: 48px;
+    font-size: 15px;
+    border-style: none;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .Custom-Instruct {
+    width: 100%;
+    height: 100vh;
+  }
+  .header {
+    width: 100%;
+  }
+  .header-Left {
+    width: 100%;
+  }
+  .logo-Pic {
+    width: 140px;
+    height: 32px;
+    background: #fbfbfb;
+    padding: 40px 0px 0px 30px;
+  }
+  .header-Right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 35px;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu-Btn,
+  .close-Btn {
+    width: 20px;
+    height: 20px;
+    padding-right: 0px;
+  }
+  .head-Name {
+    width: 270px;
+    font-size: 15px;
+  }
+  .navbar-Logout {
+    width: 270px;
+    height: 48px;
+    font-size: 15px;
+    border-style: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Custom-Instruct {
+    width: 100%;
+    height: 100vh;
+  }
+  .header {
+    width: 100%;
+  }
+  .header-Left {
+    width: 100%;
+  }
+  .logo-Pic {
+    width: 126px;
+    height: 29px;
+    background: #fbfbfb;
+    padding: 42px 0px 0px 24px;
+  }
+  .header-Right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 35px;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu-Btn,
+  .close-Btn {
+    width: 18px;
+    height: 18px;
+  }
+  .menu-Bar {
+    width: 100%;
+    height: 120vh;
+    padding-left: 38px;
+  }
+  .head-Name {
+    width: 240px;
+    font-size: 14px;
+  }
+  .navbar-Logout {
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    border-style: none;
+  }
+}

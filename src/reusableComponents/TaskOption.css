@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.body-Task1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  transition: color 0.3s;
+}
+.body-Task1 p {
+  width: 100%;
+  color: #6a6a6a;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.option-Btns {
+  width: 266px;
+  height: 50px;
+  border-radius: 200px;
+  background: rgba(0, 115, 127, 0.1);
+  color: #6a6a6a;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  box-sizing: border-box;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.selected {
+  color: #fff;
+  background: #00737f;
+}
+.body-Task1.hovered {
+  color: #000;
+}
+.body-Task1.hovered .options .option-Btns:not(.selected) {
+  color: #000;
+}
+.body-Task1.hovered p {
+  color: #000;
+}
+.option-Btns span {
+  width: 18px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 10px;
+}
+/* .body-Task1 p:hover {
+  color: #000;
+} */
+
+/* Responsive TestOption */
+
+@media screen and (max-width: 1330px) {
+  .body-Task1 {
+    padding: 18px 0px 18px 0px;
+  }
+  .body-Task1 p {
+    font-size: 22px;
+    padding-bottom: 15px;
+  }
+  .option-Btns {
+    width: 218px;
+    height: 48px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .body-Task1 {
+    padding: 15px 0px 15px 0px;
+  }
+  .body-Task1 p {
+    font-size: 20px;
+    padding-bottom: 18px;
+  }
+  .options {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+  }
+  .option-Btns {
+    width: 185px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .body-Task1 {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 20px;
+  }
+  .body-Task1 p {
+    font-size: 17px;
+    padding-bottom: 12px;
+  }
+  .options {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 8px;
+  }
+  .option-Btns {
+    width: 145px;
+    height: 38px;
+    font-size: 10px;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 750px) {
+  .body-Task1 {
+    width: 480px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+  }
+  .body-Task1 p {
+    width: 480px;
+    font-size: 17px;
+    padding-bottom: 14px;
+  }
+  .options {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .option-Btns {
+    width: 390px;
+    height: 38px;
+    font-size: 15px;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 575px) {
+  .body-Task1 {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+  }
+  .body-Task1 p {
+    width: 350px;
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+  .option-Btns {
+    width: 320px;
+    height: 35px;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 3px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .body-Task1 {
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+  }
+  .body-Task1 p {
+    width: 290px;
+    font-size: 14px;
+    padding-bottom: 9px;
+  }
+  .options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+  }
+  .option-Btns {
+    width: 265px;
+    height: 33px;
+    font-size: 12px;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.assesment-Complete {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+.assesement-Body {
+  width: 100%;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+}
+.assesment-Box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.complete-Tick {
+  width: 88px;
+  height: 88px;
+  color: #00737f;
+  padding-top: 60px;
+}
+.assesment-Head {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 42px;
+}
+.assesment-Para {
+  width: 577px;
+  color: #959595;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 14px 0px 42px 0px;
+}
+.result-Btn {
+  width: 382px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #00737f;
+  background: #00737f;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  border-style: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:760px) {
+  .assesement-Body{
+    width: 100%;
+  }
+  .assesment-Box{
+    width: 100%;
+  }
+  .complete-Tick{
+    width: 77px;
+    height: 77px;
+  }
+  .assesment-Head {
+    width: 100%;
+    font-size: 22px;
+  }
+  .assesment-Para {
+    width: 477px;
+    font-size: 12px;
+  }
+  .result-Btn {
+    width: 340px;
+    height: 46px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:630px) {
+  .assesement-Body{
+    width: 100%;
+  }
+  .assesment-Box{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .complete-Tick{
+    width: 55px;
+    height: 55px;
+  }
+  .assesment-Head {
+    width: 100%;
+    font-size: 19px;
+    padding-top: 32px;
+  }
+  .assesment-Para {
+    width: 377px;
+    font-size: 10px;
+  }
+  .result-Btn {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:460px) {
+  .assesement-Body{
+    width: 100%;
+  }
+  .assesment-Box{
+    width: 100%;
+    padding-top: 15px;
+  }
+  .complete-Tick{
+    width: 44px;
+    height: 44px;
+  }
+  .assesment-Head {
+    width: 100%;
+    font-size: 16px;
+  }
+  .assesment-Para {
+    width: 285px;
+    font-size: 9px;
+    padding: 14px 0px 32px 0px;
+  }
+  .result-Btn {
+    width: 200px;
+    height: 36px;
+    font-size: 13px;
+  }
+}

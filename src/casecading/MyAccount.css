@@ -1,0 +1,521 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.myAccount-Page {
+  width: 100%;
+}
+.account-Body {
+  display: flex;
+  justify-content: center;
+}
+.account-Box {
+  width: 87%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.account-Name {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 60px 0px 0px 0px;
+}
+.account-Date {
+  color: #00737f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px 0px 40px 0px;
+}
+.account-Login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: flex-start;
+}
+.field-1 {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.field-2 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.login-Label {
+  width: 382px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+.login-InputField{
+  display: flex;
+  flex-direction: column;
+}
+
+.label-Head {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+}
+.label-Edit {
+  color: #00737f;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.input-Box {
+  width: 382px;
+  height: 55px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  margin-bottom: 40px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.login-Password {
+  width: 352px;
+  height: 55px;
+  border-radius: 5px;
+  /* border: 1px solid #d9d9d9; */
+  background: #fff;
+  margin-bottom: 40px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: sp;
+  box-sizing: border-box;
+  padding: 16px;
+  border: none;
+  outline: none;
+}
+.eye-Open {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 16px;
+  height: 10px;
+  background: #fff;
+  color: #00737f;
+  cursor: pointer;
+  margin: 0px 8px 0px 0px;
+}
+.login-Input {
+  width: 382px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  margin-bottom: 40px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.save-Btn {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #00737f;
+  background: #00737f;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 12px;
+  border-style: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1320px) {
+  .account-Body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .account-Box {
+    width: 75%;
+  }
+  .account-Login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: flex-start;
+  }
+  .field-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .field-2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .account-Body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .account-Box {
+    width: 382px;
+    justify-content: center;
+    align-items: left;
+  }
+  .account-Login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .field-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .field-2 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 0px;
+  }
+  .save-Btn {
+    width: 382px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .account-Body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .account-Name {
+    font-size: 23px;
+  }
+  .account-Date{
+    font-size: 15px;
+  }
+  .account-Box {
+    width: 382px;
+    justify-content: center;
+    align-items: left;
+  }
+  .account-Login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .login-InputField,
+  .login-Label {
+    width: 370px;
+  }
+  .login-Input {
+    width: 370px;
+    height: 52px;
+    font-size: 13px;
+  } 
+  .save-Btn {
+    width: 370px;
+    height: 52px;
+    font-size: 15px;
+  }
+  .field-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .field-2 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .account-Body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .account-Name {
+    font-size: 20px;
+  }
+  .account-Date{
+    font-size: 12px;
+  }
+  .account-Box {
+    width: 340px;
+    justify-content: center;
+    align-items: left;
+  }
+  .account-Login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .login-InputField,
+  .login-Label {
+    width: 340px;
+  }
+  .label-Head,
+  .label-Edit {
+    font-size: 13px;
+  }
+  .login-Input, 
+  .save-Btn {
+    width: 340px;
+    height: 48px;
+  }
+  .login-Input {
+    width: 340px;
+    height: 52px;
+    font-size: 13px;
+  } 
+  .input-Box {
+    width: 340px;
+    height: 52px;
+  }
+  .login-Password {
+    width: 340px;
+    height: 48px;
+  }
+  .save-Btn {
+    width: 340px;
+    height: 48px;
+    font-size: 13px;
+  }
+  .field-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .field-2 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .account-Body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .account-Name {
+    font-size: 18px;
+    padding-top: 45px;
+  }
+  .account-Date{
+    font-size: 10px;
+    padding-bottom: 28px;
+  }
+  .account-Box {
+    width: 320px;
+    justify-content: center;
+    align-items: left;
+  }
+  .account-Login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .login-InputField,
+  .login-Label {
+    width: 320px;
+    padding-bottom: 8px;
+  }
+  .login-InputField{
+    padding-bottom: 0px;
+  }
+  .label-Head,
+  .label-Edit {
+    font-size: 11px;
+  }
+  .login-Input, 
+  .save-Btn {
+    width: 320px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .login-Input {
+    width: 320px;
+    height: 52px;
+    font-size: 12px;
+  } 
+  .input-Box {
+    width: 320px;
+    height: 40px;
+  }
+  .login-Password {
+    width: 280px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .save-Btn{
+    font-size: 12px;
+  }
+  .field-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .field-2 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .account-Body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .account-Name {
+    font-size: 14px;
+    padding-top: 40px;
+  }
+  .account-Date{
+    font-size: 9px;
+    padding-bottom: 20px;
+  }
+  .account-Box {
+    width: 260px;
+    justify-content: center;
+    align-items: left;
+  }
+  .account-Login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+    align-items: center;
+  }
+  .login-InputField {
+    width: 260px;
+    padding-bottom: 0px;
+    margin: 0px;
+  }
+  .login-Label {
+    width: 260px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+  }
+  .label-Head,
+  .label-Edit {
+    font-size: 9px;
+  }
+  .login-Input, 
+  .save-Btn {
+    width: 260px;
+    height: 35px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+  }
+  .login-Password {
+    font-size: 11px;
+  }
+  .login-Input {
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 11px;
+  } 
+  .input-Box {
+    width: 260px;
+    height: 35px;
+  }
+  .login-Password {
+    width: 220px;
+    height: 35px;
+    font-size: 11px;
+  }
+  .save-Btn{
+    font-size: 11px;
+  }
+  .field-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .field-2 {
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+}

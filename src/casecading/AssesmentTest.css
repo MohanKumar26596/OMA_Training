@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.assessment-Page{
+  width: 100%;
+  height: 100vh;
+}
+.appBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.app-BodyHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 189px;
+  background-color: #00737f;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+.app-BodyNavbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 42px 50px 35px 50px;
+}
+.back-Btn {
+  width: 126px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: #00737f;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.app-Logo {
+  width: 195px;
+  height: 50px;
+  padding-bottom: 0px;
+}
+.nextBtn {
+  width: 126px;
+  height: 50px;
+  border-radius: 5px;
+  background: #fff;
+  color: #00737f;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-style: none;
+}
+.scroll-Box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 50px 35px 50px;
+}
+.scroll-Bar {
+  width: 100%;
+  height: 11px;
+  box-sizing: border-box;
+  padding: 0px 0px;
+  align-items: center;
+  border-radius: 200px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid skyblue;
+}
+.filler {
+  width: 140px;
+  height: 10.5px;
+  border-radius: 200px;
+  background: #fff;
+}
+.body-Task {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+/* Responsive Application Screen */
+
+@media screen and (max-width: 1330px) {
+  .app-BodyHeader {
+    height: 185px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  }
+  .app-BodyNavbar {
+    box-sizing: border-box;
+    padding: 40px 45px 35px 45px;
+  }
+  .back-Btn {
+    width: 118px;
+    height: 46px;
+  }
+  .app-Logo {
+    width: 190px;
+    height: 46px;
+  }
+  .nextBtn {
+    width: 118px;
+    height: 46px;
+  }
+  .scroll-Box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 45px 30px 45px;
+  }
+  .scroll-Bar {
+    width: 100%;
+    height: 10px;
+  }
+  .filler {
+    width: 138px;
+    height: 9px;
+  }
+  .body-Task {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .app-BodyHeader {
+    height: 168px;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 50% 100%, 0 83%);
+  }
+  .app-BodyNavbar {
+    box-sizing: border-box;
+    padding: 36px 36px 32px 36px;
+  }
+  .back-Btn {
+    width: 100px;
+    height: 42px;
+    font-size: 15px;
+  }
+  .app-Logo {
+    width: 175px;
+    height: 42px;
+  }
+  .nextBtn {
+    width: 100px;
+    height: 42px;
+    font-size: 15px;
+  }
+  .scroll-Box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 36px 24px 36px;
+  }
+  .scroll-Bar {
+    width: 100%;
+    height: 9px;
+  }
+  .filler {
+    width: 120px;
+    height: 8px;
+  }
+  .body-Task {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .app-BodyHeader {
+    height: 138px;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 50% 100%, 0 86%);
+  }
+  .app-BodyNavbar {
+    box-sizing: border-box;
+    padding: 32px 34px 24px 34px;
+  }
+  .back-Btn {
+    width: 70px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .app-Logo {
+    width: 140px;
+    height: 34px;
+  }
+  .nextBtn {
+    width: 70px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .scroll-Box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 34px 24px 34px;
+  }
+  .scroll-Bar {
+    width: 100%;
+    height: 8px;
+  }
+  .filler {
+    width: 80px;
+    height: 7px;
+  }
+  .body-Task {
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .app-BodyHeader {
+    height: 105px;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 50% 100%, 0 87%);
+  }
+  .app-BodyNavbar {
+    box-sizing: border-box;
+    padding: 26px 24px 20px 24px;
+  }
+  .back-Btn {
+    width: 58px;
+    height: 26px;
+    font-size: 11px;
+  }
+  .app-Logo {
+    width: 96px;
+    height: 26px;
+  }
+  .nextBtn {
+    width: 58px;
+    height: 26px;
+    font-size: 11px;
+  }
+  .scroll-Box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 24px 24px 24px;
+  }
+  .scroll-Bar {
+    width: 100%;
+    height: 6px;
+  }
+  .filler {
+    width: 50px;
+    height: 5px;
+  }
+  .body-Task {
+    width: 100%;
+  }
+}
